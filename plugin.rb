@@ -1,5 +1,8 @@
-# frozen_string_literal: true
-
+# name: discourse_user_negative_search
+# about: Add negative user search to advanced search
+# version: 0.2
+# authors: Maxym Khaykin
+# url: https://github.com/realmrmax/discourse_user_negative_search
 
 after_initialize do
   require_dependency 'search'
